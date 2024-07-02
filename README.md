@@ -25,7 +25,9 @@ Atualmente, sou analista de sustentação na SoluCX, empresa de tecnologia focad
 - Resolução de problemas: Habilidade para analisar problemas, identificar causas e encontrar soluções eficazes de forma rápida e eficiente.
 
 # Habilidades Desenvolvidas no Estágio
-- Aprofundamento técnico em bancos de dados ralacionais e não relacionais,
+- Aprofundamento técnico em bancos de dados ralacionais e não relacionais
+- Conhecimentos sobre inetgridade de dados em banco de dados
+- Conhecimentos na área de costumer exprience
 
 
 ## FATEC: Projetos Integradores
