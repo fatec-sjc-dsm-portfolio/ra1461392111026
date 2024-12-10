@@ -1,32 +1,38 @@
 const projects = [
     {
         name: "Plataforma para Análise Estatística",
-        description: "Desenvolvimento de uma plataforma para jornalistas acessarem informações e dados de eleitores de diferentes regiões.",
+        description: "Uma ferramenta para jornalistas explorarem informações de eleitores, utilizando análises de dados e inteligência artificial. Inclui dashboards interativos com insights regionais.",
+        technologies: "Python, Data Science, Machine Learning",
         link: "https://github.com/grupo-3dsm/repo_pi"
     },
     {
         name: "Portal Web com Interface de Mapa",
-        description: "Desenvolvimento de um portal web com interface de mapa, baseado em serviços de computação em nuvem utilizando tiles.",
+        description: "Portal baseado em mapas para visualização de informações geográficas. Utiliza tiles em computação na nuvem para oferecer análises detalhadas.",
+        technologies: "JavaScript, Cloud Computing, GIS",
         link: "https://github.com/grupo-3dsm/Sirius-repoP.I"
     },
     {
         name: "Website Help Desk para Suporte Técnico",
-        description: "Criação de uma ferramenta inteligente em aplicação web para identificação das causas de falhas que geram retrabalhos.",
+        description: "Sistema web inteligente para análise de causas de falhas, minimizando retrabalhos em suporte técnico.",
+        technologies: "PHP, MySQL, AI-Based Support",
         link: "https://github.com/Grupo2-DSM/Api-3dsm-2022"
     },
     {
-        name: "Estação Meteorológica com a Empresa Tecsus",
-        description: "Desenvolvimento de uma estação meteorológica capaz de coletar e transmitir dados em tempo real para um servidor na nuvem.",
+        name: "Estação Meteorológica com Tecsus",
+        description: "Uma estação meteorológica para coleta e transmissão de dados em tempo real, integrando sensores e serviços em nuvem.",
+        technologies: "IoT, Python, AWS",
         link: "https://github.com/Conveccao/conveccao-documentacao"
     },
     {
-        name: "Aplicativo Organizacional para a Oracle Academy",
-        description: "Aplicativo de gerenciamento de atividades para facilitar a organização na vida corporativa e pessoal do usuário.",
+        name: "Aplicativo Organizacional para Oracle Academy",
+        description: "Aplicativo para gerenciamento de atividades corporativas e pessoais, focando na produtividade e organização.",
+        technologies: "Java, MongoDB, Firebase",
         link: "https://github.com/TheAchieversDSM/API-2023.2-Back-End"
     },
     {
-        name: "Sistema de Sumarização para a Empresa Dom Rock",
-        description: "Desenvolvimento de dashboards dinâmicos para análise de reviews de produtos utilizando técnicas de Processamento de Linguagem Natural e aprendizado de máquina.",
+        name: "Sistema de Sumarização para Dom Rock",
+        description: "Dashboards dinâmicos para análise de reviews de produtos, utilizando processamento de linguagem natural e aprendizado de máquina.",
+        technologies: "Python, Scikit-learn, PostgreSQL, AWS",
         link: "https://github.com/TheAchieversDSM/API-2024.1"
     }
 ];
@@ -40,6 +46,7 @@ projects.forEach(project => {
     projectCard.innerHTML = `
         <h3>${project.name}</h3>
         <p>${project.description}</p>
+        <p><strong>Tecnologias:</strong> ${project.technologies}</p>
         <a href="${project.link}" target="_blank">Ver Projeto</a>
     `;
 
