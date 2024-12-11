@@ -14,7 +14,7 @@ const projects = [
     {
         name: "Website Help Desk para Suporte Técnico",
         description: "Sistema web inteligente para análise de causas de falhas, minimizando retrabalhos em suporte técnico.",
-        technologies: "PHP, MySQL, AI-Based Support",
+        technologies: "Java, MySQL, AI-Based Support",
         link: "https://github.com/Grupo2-DSM/Api-3dsm-2022"
     },
     {
@@ -26,7 +26,7 @@ const projects = [
     {
         name: "Aplicativo Organizacional para Oracle Academy",
         description: "Aplicativo para gerenciamento de atividades corporativas e pessoais, focando na produtividade e organização.",
-        technologies: "Java, MongoDB, Firebase",
+        technologies: "React, MongoDB, Firebase",
         link: "https://github.com/TheAchieversDSM/API-2023.2-Back-End"
     },
     {
