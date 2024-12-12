@@ -7,25 +7,90 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+    <!-- Header -->
     <header>
+        <nav>
+            <ul>
+                <li><a href="#about">Sobre Mim</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#professional">Área Profissional</a></li>
+            </ul>
+        </nav>
         <h1>Nathan da Motta Truyts</h1>
         <p>Desenvolvedor de Software Multiplataforma</p>
     </header>
-    <main>
-        <section id="about">
-            <h2>Sobre Mim</h2>
-            <p>Tenho 22 anos, natural de Jacareí, estudo Desenvolvimento de Software Multiplataforma na Fatec São José dos Campos e possuo certificações em UX, front-end e design patterns. Sou tranquilo, aberto a críticas e trabalho bem em equipe. Meu objetivo é crescer como profissional e contribuir com a sociedade.</p>
-        </section>
-        <section id="projects">
-            <h2>Projetos</h2>
-            <div class="projects-grid">
+
+    <!-- Seção de Informações Pessoais -->
+    <section id="about">
+        <h2>Sobre Mim</h2>
+        <div class="about-container">
+            <img src="./assets/images/profile.jpg" alt="Foto de Perfil" class="profile-photo">
+            <p>
+                Sou um desenvolvedor de software multiplataforma com experiência em 
+                projetos acadêmicos e corporativos. Apaixonado por tecnologia, sou 
+                dedicado a transformar ideias em soluções inovadoras. 
+                Tenho experiência com inteligência artificial, visualização de dados 
+                e desenvolvimento full stack.
+            </p>
+        </div>
+    </section>
+
+    <!-- Seção de Projetos -->
+    <section id="projects">
+        <h2>Projetos</h2>
+        <div class="projects-grid">
+            <!-- Os projetos serão inseridos pelo JavaScript -->
+        </div>
+    </section>
+
+
+    <!-- Seção de Área Profissional -->
+    <section id="professional">
+        <h2>Área Profissional</h2>
+        <div class="professional-container">
+            <div class="professional-experience">
+                <h3>Experiência Profissional</h3>
+                <ul>
+                    <li>
+                        <strong>Desenvolvedor de Software Multiplataforma</strong> - <em>ABG Tech</em>
+                        <p>
+                            <strong>Período:</strong> Out/2022 - Mar/2023<br>
+                            <strong>Nível:</strong> Estágio<br>
+                            <strong>Linguagens:</strong> React, JavaScript, Typescript<br>
+                            Desenvolvimento de aplicações sob demanda com foco em soluções personalizadas para clientes corporativos.
+                        </p>
+                    </li>
+                    <li>
+                        <strong>Analista de Sustentação</strong> - <em>Solucx</em>
+                        <p>
+                            <strong>Período:</strong> Nov/2023 - Atual<br>
+                            <strong>Nível:</strong> Júnior<br>
+                            <strong>Linguagens:</strong> SQL, noSQL, PHP, Jupyter, Python<br>
+                            Responsável por garantir a estabilidade e eficiência de sistemas e aplicações, solucionando incidentes, realizando manutenções preventivas e corretivas, e oferecendo suporte técnico para assegurar o pleno funcionamento das operações.
+                        </p>
+                    </li>
+                </ul>
             </div>
-        </section>
-    </main>
+        </div>
+        
+            <div class="professional-skills">
+                <h3>Habilidades Técnicas</h3>
+                <ul>
+                    <li>Desenvolvimento Full Stack (Python, JavaScript)</li>
+                    <li>Processamento de Linguagem Natural (PLN)</li>
+                    <li>Aprendizado de Máquina (Scikit-learn, Pandas)</li>
+                    <li>Gerenciamento de Projetos Ágeis (Scrum, Kanban)</li>
+                    <li>Manipulação de dados (Jupyter Notebook)</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
     <footer>
         <p>© 2024 Nathan da Motta Truyts | <a href="https://github.com/Nathtruyts" target="_blank">GitHub</a></p>
     </footer>
-    <script src="./assets/scripts/main.js"></script>
 
+    <script src="./assets/scripts/main.js"></script>
 </body>
 </html>
